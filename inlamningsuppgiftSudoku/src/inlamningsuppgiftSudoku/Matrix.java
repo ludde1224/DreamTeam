@@ -39,7 +39,7 @@ public class Matrix {
 	public boolean contains(Integer number) {
 		for (SudokuNumber[] row : matrix) {
 			for (SudokuNumber col : row) {
-				if (SudokuNumber.getValue() == number) {
+				if (col.getValue() == number) {
 					return true;
 				}
 			}
