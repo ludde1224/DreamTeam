@@ -1,5 +1,5 @@
 package inlamningsuppgiftSudoku;
 
-public class Sudokuboard {
+public class Algorithm {
 
 }
