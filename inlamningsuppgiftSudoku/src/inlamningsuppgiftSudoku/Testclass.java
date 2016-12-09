@@ -3,7 +3,8 @@ package inlamningsuppgiftSudoku;
 public class Testclass {
 
 	public static void main(String[] args) {
-		// TODO Make sudoku
+		int a = 5;
+		
 
 	}
 
