@@ -11,7 +11,7 @@ public class SudokuNumber {
 	 */
 	public SudokuNumber(int value, boolean flag){
 		this.value = value;
-		//blabla
+		this.flag = flag;
 		
 	}
 
@@ -47,9 +47,9 @@ public class SudokuNumber {
 	 * Flaggar ett Sudokunr
 	 * @return Returnerar true om värdet är insatt av användaren
 	 */
-	public boolean setFlag(){
-		flag = true;
-		return flag;
+	public void setFlag(boolean flag){
+		this.flag = flag;
+		
 	}
 
 }
