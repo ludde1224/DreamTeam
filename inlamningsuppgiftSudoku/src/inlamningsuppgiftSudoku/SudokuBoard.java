@@ -36,7 +36,7 @@ public class SudokuBoard {
 		//table[startNumber(rowNumber)][startNumber(colNumber)];
 		return false;
 	}
-	public boolean ulimateContains(int rowNumber, int colNumber,  int number){
+	public boolean ultimateContains(int rowNumber, int colNumber,  int number){
 		if(rowContains(rowNumber, number)|| colContains(rowNumber, number)|| sectionContains(rowNumber,colNumber,number) ){
 			return true;
 		}
