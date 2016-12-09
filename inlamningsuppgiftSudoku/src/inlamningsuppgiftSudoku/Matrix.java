@@ -36,7 +36,7 @@ public class Matrix {
 	 *            numret som ska kollas
 	 * @return Blir sann om matrisen innehåller number
 	 */
-	public boolean contains(Integer number) {
+	public boolean squareContains(Integer number) {
 		for (SudokuNumber[] row : matrix) {
 			for (SudokuNumber col : row) {
 				if (col.getValue() == number) {
