@@ -11,6 +11,7 @@ public class SudokuNumber {
 	 */
 	public SudokuNumber(int value, boolean flag){
 		this.value = value;
+		//blabla
 		
 	}
 
