@@ -3,6 +3,7 @@ package inlamningsuppgiftSudoku;
 public class SudokuBoard {
 	SudokuNumber[][] table;
 	
+	
 	public SudokuBoard(int[][] numbers){
 		table = new SudokuNumber[9][9];
 	}
